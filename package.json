@@ -1,0 +1,25 @@
+{
+  "name": "employee-manager",
+  "version": "1.0.0",
+  "description": "Manages company employees",
+  "main": "app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avbillie/employee-manager.git"
+  },
+  "author": "Anthony V. Billie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Avbillie/employee-manager/issues"
+  },
+  "homepage": "https://github.com/Avbillie/employee-manager#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
+  }
+}
